@@ -1,14 +1,5 @@
 
 
-// function combineUnique(...arrays){
-//  const combined = arrays.reduce((acc, curr) => [...acc, ...curr], []);
-//  const unique = [...new Set(combined)];
-//  const sorted = unique.sort((a, b) => a - b);
-//  return sorted;
-
-// }
-// console.log(combineUnique([1, 2, 3], [2, 3, 4], [4, 5, 6]));
-
  
 function combineUnique(...arrays){
     console.log(arrays);
