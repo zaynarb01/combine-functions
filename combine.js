@@ -2,17 +2,11 @@
 
  
 function combineUnique(...arrays){
-    console.log(arrays);
-
-    let combined =[];
     arrays.map(arr => {
         combined.push(...arr);
     });
-     console.log(combined);
 
     const uniqueArray = [...new Set(combined)];
-    console.log(uniqueArray);
-
     const sorted = uniqueArray.sort((a, b) => a - b);
 
 
